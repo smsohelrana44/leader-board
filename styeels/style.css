@@ -83,4 +83,33 @@ hr{
 /*---------------
  Courses Styels 
  ----------------*/
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+ }
+ .course .course-banner img{
+    width: 224px;
+    height: 104px;
+ }
+ .course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .fa-star{
+    font-size: 12px;
+ }
+ .fa-star.filled{
+    color: #FFC014;
+ }
+ .fa-star.empty{
+    color: #AEAEAE;
+ }
+ .course-duration{
+    margin-right: 40px;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: rgb(168, 40, 40);
+ }
  
